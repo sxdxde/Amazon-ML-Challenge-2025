@@ -357,7 +357,7 @@ project/
 └── enhanced_mlp_fusion_submission.csv   # Final submission
 ```
 
-**Drive Link:** [Insert your Google Drive/GitHub link here]
+**Github Link:** https://github.com/sxdxde/Amazon-ML-Challenge-2025
 
 ### B. Model Architecture Details
 
