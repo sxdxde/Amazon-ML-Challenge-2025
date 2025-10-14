@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
-**Team RandomForest** | *Achieving 43.60897526% SMAPE through Advanced Multimodal Fusion (as per Challenge Evaluation*
+**Team RandomForest** | *Achieving 43.60897526% SMAPE through Advanced Multimodal Fusion (as per Challenge Evaluation)*
 
 [Features](#-key-features) • [Architecture](#-model-architecture) • [Results](#-performance) • [Installation](#-installation) • [Usage](#-usage)
 
