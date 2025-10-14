@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
-**Team RandomForest** | *Achieving 43.60897526% SMAPE through Advanced Multimodal Fusion*
+**Team RandomForest** | *Achieving 43.60897526% SMAPE through Advanced Multimodal Fusion (as per Challenge Evaluation*
 
 [Features](#-key-features) • [Architecture](#-model-architecture) • [Results](#-performance) • [Installation](#-installation) • [Usage](#-usage)
 
@@ -21,7 +21,7 @@ The Amazon ML Challenge 2025 focuses on predicting product prices using multimod
 
 ### 🎯 Competition Metrics
 - **Primary Metric:** SMAPE (Symmetric Mean Absolute Percentage Error)
-- **Our Score:** 46.73% (7-Fold CV)
+- **Our Score:** 46.73% (7-Fold CV) (as per the algorithm)
 - **Approach:** Enhanced Multimodal Fusion with Cross-Attention
 
 ---
