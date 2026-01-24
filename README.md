@@ -395,20 +395,19 @@ Learning rate of 1.5e-4 "sweet spot" for transformers; stable for our MLP as wel
 | Uday Yerraballi | Data Engineer | Pipeline & preprocessing |
 
 ---
-
 ## 📝 Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
 @misc{randomforest2025amazon,
-  title={Enhanced Multimodal Fusion for Amazon Product Pricing},
-  author={Team RandomForest},
-  year={2025},
-  publisher={GitHub},
-  url={https://github.com/sxdxde/Amazon-ML-Challenge-2025}
+  title        = {Enhanced Multimodal Fusion for Amazon Product Pricing},
+  author       = {Team RandomForest},
+  year         = {2025},
+  publisher    = {GitHub},
+  url          = {https://github.com/sxdxde/Amazon-ML-Challenge-2025}
 }
-```
+
 
 ---
 
