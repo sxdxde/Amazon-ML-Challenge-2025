@@ -17,7 +17,7 @@
 
 ## 📊 Challenge Overview
 
-The Amazon ML Challenge 2025 focuses on predicting product prices using multimodal data - combining text descriptions and product images. Our solution leverages state-of-the-art deep learning techniques to achieve competitive performance.
+The Amazon ML Challenge 2025 focuses on predicting  Amazon product prices using multimodal data - combining text descriptions and product images. Our solution leverages state-of-the-art deep learning techniques to achieve competitive performance.
 
 ### 🎯 Competition Metrics
 - **Primary Metric:** SMAPE (Symmetric Mean Absolute Percentage Error)
@@ -325,9 +325,10 @@ image_combined = image_enc + image_att
 ```
 
 ### 4. Optimization Strategy
+Learning rate of 1.5e-4 "sweet spot" for transformers; stable for our MLP as well.
 
 **Training Pipeline:**
-- Optimizer: AdamW (lr=1.5e-4, wd=5e-5)
+- Optimizer: AdamW (lr=1.5e-4, wd=5e-5) 
 - Scheduler: CosineAnnealingWarmRestarts
 - Early stopping: 25 epochs patience
 - Gradient clipping: 1.0
@@ -340,10 +341,10 @@ image_combined = image_enc + image_att
 ### What Worked
 
 ✅ **Cross-modal attention** - Captures text-image relationships  
-✅ **SMAPE-optimized loss** - Direct metric optimization beats proxy losses  
+✅ **SMAPE-optimized loss** - Direct metric optimization,symmetric penalization beats proxy losses  
 ✅ **Gated fusion** - Learnable gates improve feature selection  
 ✅ **QuantileTransformer** - Better outlier handling than StandardScaler  
-✅ **7-Fold CV** - Lower variance than 5-fold  
+✅ **7-Fold CV** - Lower variance than 5-fold,CV in general reduces risk of overfitting 
 
 ### What Didn't Work
 
@@ -411,15 +412,12 @@ If you find this work useful, please cite:
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgments
 
 - Amazon ML Challenge 2025 organizers
+- Dr.Sivaselvan for providing us with workstations for the challenge
 - PyTorch team for excellent deep learning framework
 - scikit-learn contributors for preprocessing tools
 - Open source community for inspiration and support
@@ -431,7 +429,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions or collaboration:
 
 - GitHub: [@sxdxde](https://github.com/sxdxde)
-- Email: team.randomforest@example.com
+- Email: cs23b2007@iiitdm.ac.in
 
 ---
 
