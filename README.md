@@ -389,10 +389,8 @@ Learning rate of 1.5e-4 "sweet spot" for transformers; stable for our MLP as wel
 
 | Member | Role | Contribution |
 |--------|------|--------------|
-| Shirish Giroti | ML Engineer | Model architecture & training |
-| Sudarshan Sudhakar | Data Scientist | Feature engineering & EDA |
-| Chris Jason Baskar | ML Engineer | Loss optimization & validation |
-| Uday Yerraballi | Data Engineer | Pipeline & preprocessing |
+| Sudarshan Sudhakar | Team Leader | Feature engineering, Model Training, Fine Tuning |
+
 
 ---
 ## 📝 Citation
