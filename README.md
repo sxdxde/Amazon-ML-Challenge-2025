@@ -1,3 +1,4 @@
+
 # 🏆 Amazon ML Challenge 2025: Smart Product Pricing
 
 <div align="center">
@@ -8,6 +9,8 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
 **Team RandomForest** | *Achieving 43.60897526% SMAPE through Advanced Multimodal Fusion (as per Challenge Evaluation)*
+
+<img width="1600" height="1034" alt="amazon" src="https://github.com/user-attachments/assets/68872fa0-a709-4af4-8230-cded0fbfa382" />
 
 [Features](#-key-features) • [Architecture](#-model-architecture) • [Results](#-performance) • [Installation](#-installation) • [Usage](#-usage)
 
